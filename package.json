@@ -1,27 +1,26 @@
 {
   "name": "serial-obd",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Package for communicating with a serial/usb OBD-II reader.",
   "author": {
-    "name": "Eric Smekens",
-    "email": "ericsmekens@msn.com",
-    "url": "http://github.com/EricSmekens"
+    "name": "tuxbox",
+    "url": "http://github.com/tuxbox"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com:EricSmekens/node-serial-obd.git"
+    "url": "git://github.com:tuxbox/node-serial-obd.git"
   },
   "directories": {
     "lib": "./lib"
   },
   "main": "./lib/obd.js",
   "dependencies": {
-    "serialport": "^6.0.0"
+    "serialport": "^9.1.0"
   },
   "devDependencies": {},
   "engines": {
-    "node": ">= 0.10.x",
-    "npm": ">= 1.1.x"
+    "node": ">= 16.0.0",
+    "npm": ">= 7.0.0"
   },
   "scripts": {
     "install": ""
